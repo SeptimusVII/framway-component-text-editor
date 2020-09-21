@@ -1,7 +1,7 @@
 module.exports = function(app){
     var pell = require('pell');
     var TextEditor = Object.getPrototypeOf(app).TextEditor = new app.Component("text-editor");
-    TextEditor.debug = true;
+    // TextEditor.debug = true;
     TextEditor.createdAt      = "2.0.0";
     TextEditor.lastUpdate     = "2.0.0";
     TextEditor.version        = "1";
